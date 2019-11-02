@@ -1,0 +1,63 @@
+
+.magenta-menu-logo { /* Логотип меню */
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.header-text-style { /* Заголовок "ВИДИ ДРУКУ" */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+}
+
+.under-header-text-style { /* Плівка ФЛЕКС, Термо ТРАНСФЕР */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+.under-under-header-text-style-flex-type { /* Заголовок під Плівка ФЛЕКС і тд ("Опис") */
+ display: block;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ font-size: 50px;
+ text-align: center;
+}
+
+.type-flex { /* блок з 3 картинок Плівка ФЛЕКС */
+}
+
+.type-flex:hover + .popup-type-flex { /* коли наводиться мишка на блок Плівка ФЛЕКС з"являється блок з текстом замість Термо ТРАНСФЕр */
+
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.type-flex:hover + .popup-type-flex > .under-under-header-text-style-flex-type { /* "Опис" їде у ліво */
+
+}
+
+.type-flex-img { /* Швидкість зменшення картинки у блоці Плівка ФЛЕКС */
+    transition: all 0.25s ease-in-out;
+}
+
+.type-flex-img:hover { /* маштаб картинки у блоці Плівка Флекс після наведення на неї курсором */
+    transform: scale(0.98);
+}
+
+.popup-type-flex { /* Вікно з текстом для Плівка Флекс*/
+    display: block;
+    height: 100%;
+    font-size: 3.8vh;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 6vh;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.iron-on > img { /* Блок Термо ТРАНСФЕР */
+
+}
